@@ -44,8 +44,8 @@ module.exports = {
         ],
       },
     ],
-
-    'no-console': 'error',
+    'react/no-unescaped-entities': 'off',
+    'no-console': 'off',
     'simple-import-sort/imports': 'error',
     'simple-import-sort/exports': 'error',
     'unused-imports/no-unused-imports': 'error',
@@ -66,4 +66,3 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
   },
 };
-
